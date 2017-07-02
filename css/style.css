@@ -1,3 +1,154 @@
+@charset "UTF-8";
+/* Mise en place des polices  et taille d'ecriture*/
+/*Couleur titre h1*/
+/*couleur de fond gris*/
+/* Couleur des titres et sous-titre*/
+/*couleur des paragraphes*/
+body {
+  font-family: sans-serif;
+  padding: 1px; }
 
+nav .navbar-header {
+  background-color: white; }
+nav .navbar-inverse {
+  background-color: white;
+  height: 120px;
+  border: none; }
+nav .btn {
+  margin: 40px; }
+
+header {
+  background-color: #F2F2F2; }
+  header .banniere {
+    /*filtre pour le header*/
+    background: url(../img/blog3.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    filter: brightness(70%);
+    -webkit-filter: brightness(60%);
+    -moz-filter: brightness(60%);
+    -o-filter: brightness(60%);
+    -ms-filter: brightness(60%);
+    position: relative;
+    text-align: center;
+    /*filtre pour le header*/ }
+    header .banniere h1 {
+      margin-top: 28%;
+      color: #2ECC71;
+      font-size: 40px;
+      text-transform: uppercase; }
+    header .banniere p {
+      color: white; }
+    header .banniere .btn {
+      background-color: #2ECC71;
+      border-radius: 0px 0px 0px;
+      width: 160px;
+      margin-top: 5%; }
+  header .logo {
+    margin-top: -50px; }
+
+h2 {
+  text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+  text-transform: uppercase;
+  font-size: 39px;
+  margin-bottom: 4px;
+  margin-top: 60px;
+  padding-top: 60px; }
+
+.trait {
+  width: 60px;
+  height: 2px;
+  background-color: #2ECC71;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px; }
+
+.sous-titre {
+  margin: 0% 20% 10% 20%;
+  text-align: center;
+  color: #444449; }
+
+p {
+  color: #66666E; }
+
+.col-md-1 img {
+  width: 90px;
+  height: 90px;
+  margin-top: 30px; }
+
+.col-md-5 h3 {
+  text-transform: uppercase;
+  color: #444449;
+  margin-bottom: 15px; }
+
+.header-main {
+  background-color: #F2F2F2; }
+
+/*Changement de filtre du header au passage souris*/
+.banniere:hover {
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%); }
+
+/*Changement de filtre du header au passage souris*/
+.tab_img img {
+  width: 467px;
+  height: 450px;
+  margin: -2px; }
+
+section {
+  background: url(http://devitems.com/tf/css-js-file/kirion/img/home2/testimonials/testimonial.jpg); }
+  section h2 {
+    color: white; }
+  section img {
+    width: 100px;
+    height: 100px; }
+  section aside {
+    padding: px;
+    height: 170px;
+    background-color: #F6F6F6;
+    border-bottom: 5px solid #2ECC71; }
+  section .row {
+    padding: 20px; }
+  section h4 {
+    color: white; }
+  section strong {
+    color: #2ECC71; }
+
+article img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1); }
+article img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0); }
+
+h3 {
+  text-transform: uppercase; }
+
+h6 {
+  color: #999999;
+  text-transform: uppercase; }
+
+.row-galerie {
+  margin-left: -29px; }
+
+footer {
+  background-color: #151515; }
+  footer p {
+    color: white; }
+  footer .navbar-inverse {
+     background-color: #151515;
+    border-radius: none; }
+  footer form {
+    margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
